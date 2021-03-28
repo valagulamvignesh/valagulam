@@ -1,0 +1,127 @@
+body
+{
+	margin:0px;
+}
+#main-header h1
+{
+	
+	color: white;
+	margin: 0px;
+	
+	text-align: right;
+}
+#main-header
+{
+	background: linear-gradient(45deg,blue,orange,black);
+
+	padding: 20px;
+}
+#main-article h2
+{
+	text-align: center;
+}
+
+#main-navbar a
+{
+	background: linear-gradient(45deg,green,orange,blue,pink);
+	color: white;
+	text-decoration: none;
+	
+	margin-right: 70px;
+	border-radius: 10px;
+	padding: 7px;
+
+}
+#main-navbar
+{
+	background: linear-gradient(45deg,blue,green,orange,pink);
+	padding: 12px;
+}    
+.fas
+{
+	padding: 20px;
+}
+#main-navbar a:hover
+{
+	box-shadow: 0px 0px 15px white;
+}
+#main-article
+{
+	width: 32%;
+	display: inline-block;
+	box-shadow: 0px 0px 5px black;
+	display: inline-grid;
+	margin-top: 5px;
+	border-radius: 20px;
+
+
+}
+
+#main-content-section
+{
+ width: 90%;
+ margin: auto;
+ display: flex;
+ flex-direction: row;
+}
+#main-article img
+{
+	width:inherit;
+	height: 190px;
+	margin: auto;
+	transition:all 2s linear ;
+
+
+
+}
+#main-news-section
+{
+	width: 90%;
+	background:linear-gradient(45deg,blue,yellow);
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px blue;
+}
+#course-article img
+{
+	margin-left: 500px;
+	width: 400px;
+	height: 300px;
+	border: 2px solid red;
+}
+
+
+#main-news-section h2
+{
+	background: linear-gradient(45deg,blue,green,pink);
+	padding: 15px;
+	color: white;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+}
+#course-article p
+{
+	color: white;
+}
+footer
+{
+	background: linear-gradient(45deg,blue,orange,green);
+	
+	padding: 20px;
+	text-align: center;
+}
+
+
+@media (min-width:0px) and (max-width:850px)
+{
+	#main-navbar a
+	{
+		display: flex;
+     flex-direction: column; 
+     display: block;
+     margin-top: 5px;
+     padding: 5px;
+	}
+	
+}
+
