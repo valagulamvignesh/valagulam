@@ -88,6 +88,8 @@ body
 	width: 400px;
 	height: 300px;
 	border: 2px solid red;
+	display:flex;
+	flex-direction:row;
 }
 
 
@@ -112,7 +114,7 @@ footer
 }
 
 
-@media (min-width:0px) and (max-width:850px)
+@media (min-width:0px) and (max-width:600px)
 {
 	#main-navbar a
 	{
@@ -120,8 +122,25 @@ footer
      flex-direction: column; 
      display: block;
      margin-top: 5px;
-     padding: 5px;
+     padding: 4px;
+
+	}
+	#course-article img
+	{
+		margin-left: 20px;
 	}
 	
+	#main-article
+	{
+		width:100%;
+		display: flex;
+		display: block;
+		flex-direction: column;
+	}
+
+#main-content-section{
+	display: flex;
+	display: block;
 }
 
+}
