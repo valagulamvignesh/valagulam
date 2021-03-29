@@ -84,7 +84,7 @@ body
 }
 #course-article img
 {
-	margin-left: 500px;
+	margin: auto;
 	width: 80%;
 	height: 300px;
 	border: 2px solid red;
@@ -127,7 +127,7 @@ footer
 	}
 	#course-article img
 	{
-		margin-left: 20px;
+		margin: auto;
 	}
 	
 	#main-article
